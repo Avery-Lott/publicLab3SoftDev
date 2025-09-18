@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Lab 3 Webpage</title>
+    <link 
+        href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous"
+        />
+    <link rel="stylesheet" href="..//resources/css/style.css"/>
+</head>
+<body class="main-background">
+    <!-- General setup pulled from bootstrap documentation on the navbar -->
+    <nav class = "navbar navbar-expand-lg navbar-dark container-fluid header-style"> 
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+            <u1 class="navbar-nav me-auto mb-2 mb-lg-0 ps-2">
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "./home.html">Home</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link active" aria-current="page" href = "#">Hobbies</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "./projects.html">Projects</a>
+                </li> 
+            </u1>
+        </div>
+        <a class = "ps-2 navbar-brand navbar-right">
+            <img src="../resources/img/icon.png" alt = "Logo" width = "32" class="d-inline-block align-text-top">
+        </a>
+    </nav>
+    <main class = "d-flex flex-column container pb-5">
+        <cards class = "row mt-3 mx-auto pb-3">
+            <div class="col-md card border-info border-3 mx-1 my-1"> <!--Basic card format pulled from bootstrap documentation-->
+                <img src="../resources/img/tkd.jpg" class="img-style" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Taekwondo</h5>
+                    <p class="card-text">I'm on the Taekwondo team here at CU! I do sparring, forms, and demonstration taekwondo. It's one of my favorite parts of living in Boulder!</p>
+                </div>
+            </div>
+            <div class="col-md card border-info border-3 mx-1 my-1">
+                <img src="../resources/img/Cat_animation.GIF" class="img-style" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Drawing</h5>
+                    <p class="card-text">I love to draw, and make time for it whenever I can. I do both traditional and digital art, and am always working on improving! The image above is a goofy little animation I did for a friend.</p>
+                </div>
+            </div>
+            <div class="col-md card border-info border-3 mx-1 my-1">
+                <img src="../resources/img/game-dev.jpg" class="img-style" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Game Dev</h5>
+                    <p class="card-text">I love playing and developing games, from all parts of the process. I enjoy the blend of coding and artistic creativity that comes with game development. I'm also part of the club here at CU!</p>
+                </div>
+            </div>
+        </cards>
+    </main>
+    <footer class = "footer footer-details container-fluid py-1 footer-style">
+        <a data-mdb-ripple-init class = "btn btn-outline btn-floating" href = "https://github.com/Avery-Lott" 
+            role="button" target = "_blank"><img src = "../resources/img/github.png" class = "img-fluid" width = "7%">
+        </a> <!--Reference used: https://mdbootstrap.com/docs/standard/navigation/footer/-->
+    </footer>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+## Sources 
+No generative AI was used to complete this project.
+I used the bootstrap documentation, what we've learned in class, and occasionally browsed through other documentation or stack overflow for answers to any questions I had. 
+I personally dislike the use of generative AI. I'd like my work to be my own, thank you very much. AI is incredibly harmful for the enviornment. In addition, I assume most students in our class don't know html already, and it's probably actively harming the growth of some students because they are not learning the fundamentals. I get that it's probably being used in the industry more frequently, but I think it shouldn't be used in a collegiate context to skip work, especially at this level. I know that saying this probably won't change anything, and I am happy to discuss the ethical implications regarding the use of generative AI further. However, I would like to at least say something about the multiple comments *encouraging* the use of generative AI in this assignment. 
+Any pre-existing frameworks for certain structures (accordions, cards, etc.) were pulled from the bootstrap documentation.

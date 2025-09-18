@@ -1,0 +1,38 @@
+/* .navbar-nav.me-auto.mb-2.mb-lg-0 > li > a{  
+    color: white;
+} */
+/* Needed help with the pathing for the style, looked at
+https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap */
+
+.footer-details{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.img-style{ /* https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width */
+    margin-top: 1vh;
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.sqr-img-style{ 
+    margin-top: 1vh;
+    width: 100%;
+    height: width;
+    object-fit: cover;
+}
+
+.footer-style{
+    background-image: linear-gradient(to bottom, rgb(170, 170, 238), rgb(101, 101, 150)); /* https://www.w3schools.com/css/css3_gradients.asp */
+}
+
+.header-style{
+    background-image: linear-gradient(to top, rgb(71, 71, 183), rgb(10, 10, 48));
+}
+
+.main-background{
+    background-color: rgb(155, 211, 230)
+}
